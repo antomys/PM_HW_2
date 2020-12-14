@@ -9,15 +9,15 @@ namespace Task_1._1
         {
             Console.WriteLine("1.\n");
             Console.WriteLine("Creating first account (EUR):");
-            Class_Account EURaccount = new Class_Account("EUR");
+            Account EURaccount = new Account("EUR");
             Console.WriteLine($"Created with {EURaccount._Id}");
             
             Console.WriteLine("Creating second account (USD):");
-            Class_Account USDaccount = new Class_Account("USD");
+            Account USDaccount = new Account("USD");
             Console.WriteLine($"Created with {USDaccount._Id}");
             
             Console.WriteLine("Creating third account (UAH):");
-            Class_Account UAHaccount = new Class_Account("UAH");
+            Account UAHaccount = new Account("UAH");
             Console.WriteLine($"Created with {UAHaccount._Id}");
 
             Console.WriteLine("\n2.\n");
@@ -53,7 +53,7 @@ namespace Task_1._1
             Console.WriteLine("Creating account with PLN");
             try
             {
-                Class_Account classAccount = new Class_Account("PLN");
+                Account account = new Account("PLN");
             }
             catch (Exception exception)
             {
@@ -63,12 +63,12 @@ namespace Task_1._1
             Console.WriteLine("\n7.\n");
             Console.WriteLine("All balances:");
             USDaccount.GetBalance("USD");
-            Console.WriteLine($"Account with currency {EURaccount._Currency} has " +
-                              $"{EURaccount.GetBalance(EURaccount._Currency)} balance\n");
-            Console.WriteLine($"Account with currency {USDaccount._Currency} has " +
-                              $"{USDaccount.GetBalance(USDaccount._Currency)} balance\n");
-            Console.WriteLine($"Account with currency {UAHaccount._Currency} has " +
-                              $"{UAHaccount.GetBalance(UAHaccount._Currency)} balance\n");
+            Console.WriteLine($"Account with currency {EURaccount._Сurrency} has " +
+                              $"{EURaccount.GetBalance(EURaccount._Сurrency)} balance\n");
+            Console.WriteLine($"Account with currency {USDaccount._Сurrency} has " +
+                              $"{USDaccount.GetBalance(USDaccount._Сurrency)} balance\n");
+            Console.WriteLine($"Account with currency {UAHaccount._Сurrency} has " +
+                              $"{UAHaccount.GetBalance(UAHaccount._Сurrency)} balance\n");
         }
     }
 }

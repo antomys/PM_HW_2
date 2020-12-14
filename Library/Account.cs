@@ -11,15 +11,15 @@ namespace Library
 
     public class AccountManager
     {
-        private readonly Class_Account[] _accounts;
+        private readonly Account[] _accounts;
 
-        public AccountManager(Class_Account[] accounts)
+        public AccountManager(Account[] accounts)
         {
             _accounts = accounts;
         }
-        public Class_Account[] GetSortedAccounts()
+        public Account[] GetSortedAccounts()
         {
-            Class_Account[] arr = this._accounts;
+            Account[] arr = this._accounts;
             int n = arr.Length; 
             for (int i = 0; i < n - 1; i++) 
             for (int j = 0; j < n - i - 1; j++) 
@@ -35,103 +35,77 @@ namespace Library
         }
     }
 
-    public class Class_Account : IClassAccount
+    public class Account : IClassAccount
     {
-        private Class_Account[] _accounts;
-        private readonly Random _random = new Random();
-        
-        Dictionary<int,AccountDetails> _dictionary = new Dictionary<int,AccountDetails>();
+        private Dictionary<int, AccountDetails> _dictionary;
         private readonly decimal _amount;
 
-        public Class_Account(string Currency)
+        public Account(string сurrency)
         {
-            _Id = _random.Next(100000,100000000);
+            _Id = new Random().Next(100000,100000000);
             try
             {
-                if (Currency == "EUR" || Currency == "USD" || Currency == "UAH")
-                    _Currency = Currency;
+                if (сurrency == "EUR" || сurrency == "USD" || сurrency == "UAH")
+                    _Сurrency = сurrency;
                 else
                 {
-                    throw new NotSupportedException(nameof(Currency));
+                    throw new NotSupportedException(nameof(сurrency));
                 }
             }
-            catch (Exception exception)
+            catch
             {
                 Console.WriteLine($"Exception in constructor of Class_Amount. Not supported currency");
             }
             _amount = 0;
-            _dictionary.Add(_Id,new AccountDetails{ Amount = _Amount, Currency = _Currency});
+            _dictionary=new Dictionary<int, AccountDetails> { { _Id, new AccountDetails { Amount = _Amount, Currency = _Сurrency } } };
         }
 
         public int _Id { get; set; }
-        public string _Currency { get; set; }
+        public string _Сurrency { get;}
 
         private decimal _Amount => _amount;
 
-        public void Deposit(decimal amount, string Currency)
+        public void Deposit(decimal amount, string сurrency)
         {
-            if(Currency != _Currency)
-                switch (Currency)
+            if(сurrency != _Сurrency)
+                switch (сurrency)
                 {
                     case "EUR":
-                        if (_Currency == "USD")
+                        if (_Сurrency == "USD")
                             amount = Decimal.Multiply(amount,1.19m);
-                        else if (_Currency == "UAH")
+                        else if (_Сurrency == "UAH")
                             amount = Decimal.Multiply(amount, 33.63m);
                         break;
                     case "USD":
-                        if (_Currency == "UAH")
+                        if (_Сurrency == "UAH")
                             amount = Decimal.Multiply(amount, 28.36m);
-                        else if (_Currency == "EUR")
+                        else if (_Сurrency == "EUR")
                             amount = Decimal.Divide(amount, 1.19m);
                         break;
                     case "UAH":
-                        if (_Currency == "EUR")
+                        if (_Сurrency == "EUR")
                             amount = Decimal.Divide(amount, 33.63m);
-                        else if (_Currency == "USD")
+                        else if (_Сurrency == "USD")
                             amount = Decimal.Divide(amount, 28.36m);
                         break;
                 }
             _dictionary[_Id].Amount = amount;
         }
 
-        public void Withdraw(decimal amount, string Currency)
+        public void Withdraw(decimal amount, string сurrency)
         {
-            var convertedCurrency = OutsideToInside(amount,Currency);
+            var convertedCurrency = OutsideToInside(amount,сurrency);
             if(_dictionary[_Id].Amount - convertedCurrency <=0)
                 throw new InvalidOperationException($"Not enough money on {_dictionary[_Id]} account!");
             _dictionary[_Id].Amount = _dictionary[_Id].Amount - convertedCurrency;
         }
 
-        public decimal GetBalance(string Currency)
+        public decimal GetBalance(string сurrency)
         {
-            var convertCurrency = Converter(_dictionary[_Id].Amount,Currency);
+            var convertCurrency = Converter(_dictionary[_Id].Amount,сurrency);
             //Console.WriteLine($"Your ID: {_dictionary[_Id]} and your balance is {convertCurrency} {Currency}");
             return convertCurrency;
         }
-
-        public Class_Account[] GetSortedAccounts(Class_Account[] arr)
-        {
-            int n = arr.Length; 
-            for (int i = 0; i < n - 1; i++) 
-            for (int j = 0; j < n - i - 1; j++) 
-                if (arr[j]._Id > arr[j + 1]._Id) 
-                { 
-                    // swap temp and arr[i] 
-                    int temp = arr[j]._Id; 
-                    arr[j]._Id = arr[j + 1]._Id; 
-                    arr[j + 1]._Id = temp; 
-                }
-
-            return arr;
-        }
-
-        public void GetAccount(int ID)
-        {
-            throw new NotImplementedException();
-        }
-
-
         private decimal OutsideToInside(decimal outsideAmount,string outsideCurrency)
         {
             if(outsideCurrency != _dictionary[_Id].Currency)
@@ -161,27 +135,27 @@ namespace Library
             return outsideAmount;
         }
 
-        private decimal Converter(decimal amount,string Currency)
+        private decimal Converter(decimal amount,string currency)
         {
-            if(Currency != _Currency)
-                switch (_Currency)
+            if(currency != _Сurrency)
+                switch (_Сurrency)
                 {
                     case "EUR":
-                        if (Currency == "USD")
+                        if (currency == "USD")
                             return Decimal.Multiply(amount,1.19m);
-                        else if (Currency == "UAH")
+                        else if (currency == "UAH")
                             return Decimal.Multiply(amount, 33.63m);
                         break;
                     case "USD":
-                        if (Currency == "UAH")
+                        if (currency == "UAH")
                             return Decimal.Multiply(amount, 28.36m);
-                        else if (Currency == "EUR")
+                        else if (currency == "EUR")
                             return Decimal.Divide(amount, 1.19m);
                         break;
                     case "UAH":
-                        if (Currency == "EUR")
+                        if (currency == "EUR")
                             return Decimal.Divide(amount, 33.63m);
-                        else if (Currency == "USD")
+                        else if (currency == "USD")
                             return Decimal.Divide(amount, 28.36m);
                         break;
                 }

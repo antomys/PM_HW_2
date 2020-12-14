@@ -11,20 +11,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28cac893-cc2a-4340-a647-f9e6e5e90e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Class Account.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/IClassAccount.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Library.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PM_HW_2.sln" afterDir="false" />
+    <list default="true" id="28cac893-cc2a-4340-a647-f9e6e5e90e21" name="Default Changelist" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Class Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Account.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/IClassAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/IAccount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.2/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +41,8 @@
         <option value="$PROJECT_DIR$/Library/IClassAccount.cs" />
         <option value="$PROJECT_DIR$/Library/Class Account.cs" />
         <option value="$PROJECT_DIR$/Task_1.2/Program.cs" />
+        <option value="$PROJECT_DIR$/Library/IAccount.cs" />
+        <option value="$PROJECT_DIR$/Library/Account.cs" />
       </list>
     </option>
   </component>
@@ -74,7 +69,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Task_1.2">
+  <component name="RunManager" selected=".NET Project.Task_1.1">
     <configuration name="Library" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -157,8 +152,16 @@
       <option name="presentableId" value="Default" />
       <updated>1607707281372</updated>
       <workItem from="1607707292529" duration="1835000" />
-      <workItem from="1607860830542" duration="28578000" />
+      <workItem from="1607860830542" duration="30900000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1607973015591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607973015591</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,28 +181,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="316" y="272" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607962263661">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="316" y="272" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1607962263661" />
-    <state width="914" height="276" key="GridCell.Tab.0.bottom" timestamp="1607972981239">
+    <state x="357" y="455" width="246" height="203" key="Github.ShareDialog" timestamp="1607973170942">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1607972981239" />
-    <state width="914" height="276" key="GridCell.Tab.0.center" timestamp="1607972981239">
+    <state x="357" y="455" width="246" height="203" key="Github.ShareDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1607973170942" />
+    <state width="914" height="276" key="GridCell.Tab.0.bottom" timestamp="1607974662740">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1607972981239" />
-    <state width="914" height="276" key="GridCell.Tab.0.left" timestamp="1607972981238">
+    <state width="914" height="276" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1607974662740" />
+    <state width="914" height="276" key="GridCell.Tab.0.center" timestamp="1607974662739">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1607972981238" />
-    <state width="914" height="276" key="GridCell.Tab.0.right" timestamp="1607972981239">
+    <state width="914" height="276" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1607974662739" />
+    <state width="914" height="276" key="GridCell.Tab.0.left" timestamp="1607974662738">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1607972981239" />
+    <state width="914" height="276" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1607974662738" />
+    <state width="914" height="276" key="GridCell.Tab.0.right" timestamp="1607974662739">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="914" height="276" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1607974662739" />
     <state width="914" height="356" key="GridCell.Tab.1.bottom" timestamp="1607970426851">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -252,5 +261,9 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1017" y="379" width="800" height="533" key="Rider.ProjectTemplateDialog.Size/0.30.1920.1050@0.30.1920.1050" timestamp="1607972014819" />
+    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1607973337661">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1607973337661" />
   </component>
 </project>
