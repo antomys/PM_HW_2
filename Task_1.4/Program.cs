@@ -1,9 +1,7 @@
-﻿
-
-using System;
+﻿using System;
 using Library;
 
-namespace Task_1._2
+namespace Tast_1._4
 {
     class Program
     {
@@ -16,7 +14,7 @@ namespace Task_1._2
             }
             var accManager = new AccountManager(accounts);
             
-            accManager.GetSortedAccounts();
+            accManager.GetSortedAccountsByQuickSort();
             
             
             Console.WriteLine("First ten accounts are: \n");
@@ -30,7 +28,6 @@ namespace Task_1._2
             {
                 Console.WriteLine($"ID:{accounts[i].Id}");
             }
-            
         }
     }
 }

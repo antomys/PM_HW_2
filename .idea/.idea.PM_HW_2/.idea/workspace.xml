@@ -5,19 +5,40 @@
     <projectFile>Task_1.1/Task_1.1.csproj</projectFile>
     <projectFile>Task_1.2/Task_1.2.csproj</projectFile>
     <projectFile>Task_1.3/Task_1.3.csproj</projectFile>
+    <projectFile>Tast_1.4/Tast_1.4.csproj</projectFile>
+    <projectFile>Task_1.5/Task_1.5.csproj</projectFile>
+    <projectFile>BettingPlatformEmulatorTest/BettingPlatformEmulatorTest.csproj</projectFile>
+    <projectFile>Task_2.1/Task_2.1.csproj</projectFile>
+    <projectFile>Task_2.2/Task_2.2.csproj</projectFile>
+    <projectFile>Task_3.1/Task_3.1.csproj</projectFile>
+    <projectFile>Task_3.2/Task_3.2.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28cac893-cc2a-4340-a647-f9e6e5e90e21" name="Default Changelist" comment="Initial commit">
+    <list default="true" id="28cac893-cc2a-4340-a647-f9e6e5e90e21" name="Default Changelist" comment="Refactoring">
+      <change afterPath="$PROJECT_DIR$/Library/BetService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Block 3/ISupportDeposit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Block 3/ISupportWithdrawal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Block 3/PaymentMethodBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Block 3/Types/Bank.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Block 3/Types/CreditCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Block 3/Types/GiftVoucher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Block 3/Types/Privet48.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Block 3/Types/Stereobank.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_1.4/Task_1.4.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Class Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Account.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/IClassAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/IAccount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Account.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/IAccount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PM_HW_2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/PM_HW_2.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_1.1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_1.2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.3/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.3/Task_1.3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.3/Task_1.3.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,25 +50,52 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/0c/247515e1/Decimal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/96/b5eb4f10/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Task_1.4/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/75/d2b15b7d/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/d1/df2e29be/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Library/Program.cs" />
-        <option value="$PROJECT_DIR$/Task_1.1/Program.cs" />
-        <option value="$PROJECT_DIR$/Task_1.3/Program.cs" />
         <option value="$PROJECT_DIR$/Library/IClassAccount.cs" />
         <option value="$PROJECT_DIR$/Library/Class Account.cs" />
         <option value="$PROJECT_DIR$/Task_1.2/Program.cs" />
+        <option value="$PROJECT_DIR$/Task_1.3/Program.cs" />
+        <option value="$PROJECT_DIR$/Tast_1.4/Program.cs" />
+        <option value="$PROJECT_DIR$/Task_1.4/Program.cs" />
         <option value="$PROJECT_DIR$/Library/IAccount.cs" />
+        <option value="$PROJECT_DIR$/Task_1.1/Program.cs" />
+        <option value="$PROJECT_DIR$/Task_1.5/Program.cs" />
+        <option value="$PROJECT_DIR$/BettingPlatformEmulatorTest/Program.cs" />
+        <option value="$PROJECT_DIR$/Library/Player.cs" />
+        <option value="$PROJECT_DIR$/Task_2.1/Program.cs" />
+        <option value="$PROJECT_DIR$/Task_2.2/Program.cs" />
+        <option value="$PROJECT_DIR$/Library/BetService.cs" />
         <option value="$PROJECT_DIR$/Library/Account.cs" />
+        <option value="$PROJECT_DIR$/Library/PaymentMethodBase.cs" />
+        <option value="$PROJECT_DIR$/Library/Block 3/ISupportDeposit.cs" />
+        <option value="$PROJECT_DIR$/Library/Block 3/ISupportWithdrawal.cs" />
+        <option value="$PROJECT_DIR$/Library/Block 3/PaymentMethodBase.cs" />
+        <option value="$PROJECT_DIR$/Library/Block 3/Types/Privet48.cs" />
+        <option value="$PROJECT_DIR$/Library/Block 3/Types/Bank.cs" />
+        <option value="$PROJECT_DIR$/Library/Block 3/Types/Stereobank.cs" />
+        <option value="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" />
+        <option value="$PROJECT_DIR$/Library/Block 3/Types/CreditCard.cs" />
+        <option value="$PROJECT_DIR$/Library/Block 3/Types/GiftVoucher.cs" />
+        <option value="$PROJECT_DIR$/Task_3.1/Program.cs" />
+        <option value="$PROJECT_DIR$/Task_3.2/Program.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1lWKBkiR8RruiTHQEgXY6yVqDRt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,7 +117,25 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Task_1.1">
+  <component name="RunManager" selected=".NET Project.Task_3.1">
+    <configuration name="BettingPlatformEmulatorTest" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/BettingPlatformEmulatorTest/BettingPlatformEmulatorTest.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Library" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -142,6 +208,137 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Task_1.4" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task_1.4/Task_1.4.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Task_1.5" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task_1.5/Task_1.5.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Task_2.1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task_2.1/Task_2.1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Task_2.2" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task_2.2/Task_2.2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Task_3.1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task_3.1/Task_3.1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Task_3.2" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task_3.2/Task_3.2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Tast_1.4" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task_1.4/Task_1.4.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Task_1.4" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -152,7 +349,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607707281372</updated>
       <workItem from="1607707292529" duration="1835000" />
-      <workItem from="1607860830542" duration="30900000" />
+      <workItem from="1607860830542" duration="59427000" />
+      <workItem from="1608190677289" duration="26094000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607973015591</created>
@@ -161,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607973015591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactoring">
+      <created>1607975327757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607975327757</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +387,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="316" y="272" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607962263661">
@@ -193,77 +399,143 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="357" y="455" width="246" height="203" key="Github.ShareDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1607973170942" />
-    <state width="914" height="276" key="GridCell.Tab.0.bottom" timestamp="1607974662740">
+    <state width="914" height="332" key="GridCell.Tab.0.bottom" timestamp="1608248489477">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1607974662740" />
-    <state width="914" height="276" key="GridCell.Tab.0.center" timestamp="1607974662739">
+    <state width="914" height="332" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608248489477" />
+    <state width="914" height="332" key="GridCell.Tab.0.center" timestamp="1608248489473">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1607974662739" />
-    <state width="914" height="276" key="GridCell.Tab.0.left" timestamp="1607974662738">
+    <state width="914" height="332" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608248489473" />
+    <state width="914" height="332" key="GridCell.Tab.0.left" timestamp="1608248489471">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1607974662738" />
-    <state width="914" height="276" key="GridCell.Tab.0.right" timestamp="1607974662739">
+    <state width="914" height="332" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608248489471" />
+    <state width="914" height="332" key="GridCell.Tab.0.right" timestamp="1608248489475">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1607974662739" />
-    <state width="914" height="356" key="GridCell.Tab.1.bottom" timestamp="1607970426851">
+    <state width="914" height="332" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608248489475" />
+    <state width="914" height="332" key="GridCell.Tab.1.bottom" timestamp="1608248482273">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426851" />
-    <state width="914" height="356" key="GridCell.Tab.1.center" timestamp="1607970426851">
+    <state width="914" height="332" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608248482273" />
+    <state width="914" height="332" key="GridCell.Tab.1.center" timestamp="1608248482272">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426851" />
-    <state width="914" height="356" key="GridCell.Tab.1.left" timestamp="1607970426851">
+    <state width="914" height="332" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608248482272" />
+    <state width="914" height="332" key="GridCell.Tab.1.left" timestamp="1608248482272">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426851" />
-    <state width="914" height="356" key="GridCell.Tab.1.right" timestamp="1607970426851">
+    <state width="914" height="332" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608248482272" />
+    <state width="914" height="332" key="GridCell.Tab.1.right" timestamp="1608248482273">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426851" />
-    <state width="914" height="356" key="GridCell.Tab.2.bottom" timestamp="1607970426852">
+    <state width="914" height="332" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608248482273" />
+    <state width="914" height="332" key="GridCell.Tab.2.bottom" timestamp="1608248480697">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.2.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426852" />
-    <state width="914" height="356" key="GridCell.Tab.2.center" timestamp="1607970426852">
+    <state width="914" height="332" key="GridCell.Tab.2.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480697" />
+    <state width="914" height="332" key="GridCell.Tab.2.center" timestamp="1608248480695">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.2.center/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426852" />
-    <state width="914" height="356" key="GridCell.Tab.2.left" timestamp="1607970426852">
+    <state width="914" height="332" key="GridCell.Tab.2.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480695" />
+    <state width="914" height="332" key="GridCell.Tab.2.left" timestamp="1608248480694">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.2.left/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426852" />
-    <state width="914" height="356" key="GridCell.Tab.2.right" timestamp="1607970426852">
+    <state width="914" height="332" key="GridCell.Tab.2.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480694" />
+    <state width="914" height="332" key="GridCell.Tab.2.right" timestamp="1608248480696">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.2.right/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426852" />
-    <state width="914" height="356" key="GridCell.Tab.3.bottom" timestamp="1607970426854">
+    <state width="914" height="332" key="GridCell.Tab.2.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480696" />
+    <state width="914" height="332" key="GridCell.Tab.3.bottom" timestamp="1608248480700">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.3.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426854" />
-    <state width="914" height="356" key="GridCell.Tab.3.center" timestamp="1607970426853">
+    <state width="914" height="332" key="GridCell.Tab.3.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480700" />
+    <state width="914" height="332" key="GridCell.Tab.3.center" timestamp="1608248480698">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.3.center/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426853" />
-    <state width="914" height="356" key="GridCell.Tab.3.left" timestamp="1607970426853">
+    <state width="914" height="332" key="GridCell.Tab.3.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480698" />
+    <state width="914" height="332" key="GridCell.Tab.3.left" timestamp="1608248480698">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.3.left/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426853" />
-    <state width="914" height="356" key="GridCell.Tab.3.right" timestamp="1607970426853">
+    <state width="914" height="332" key="GridCell.Tab.3.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480698" />
+    <state width="914" height="332" key="GridCell.Tab.3.right" timestamp="1608248480699">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="356" key="GridCell.Tab.3.right/0.30.1920.1050@0.30.1920.1050" timestamp="1607970426853" />
-    <state x="1017" y="379" width="800" height="533" key="Rider.ProjectTemplateDialog.Size" timestamp="1607972014819">
+    <state width="914" height="332" key="GridCell.Tab.3.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480699" />
+    <state x="1017" y="379" width="800" height="533" key="Rider.ProjectTemplateDialog.Size" timestamp="1608248564429">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1017" y="379" width="800" height="533" key="Rider.ProjectTemplateDialog.Size/0.30.1920.1050@0.30.1920.1050" timestamp="1607972014819" />
+    <state x="1017" y="379" width="800" height="533" key="Rider.ProjectTemplateDialog.Size/0.30.1920.1050@0.30.1920.1050" timestamp="1608248564429" />
+    <state x="1226" y="250" width="418" height="613" key="RiderGenerateDialog" timestamp="1608245800700">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1226" y="250" width="418" height="613" key="RiderGenerateDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1608245800700" />
     <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1607973337661">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1607973337661" />
+    <state x="1103" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1608247353518">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1103" y="261" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1608247353518" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Library/Player.cs</url>
+          <line>55</line>
+          <properties documentPath="$PROJECT_DIR$/Library/Player.cs" initialLine="55">
+            <startOffsets>
+              <option value="2021" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2094" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Library/BettingPlatformEmulator.cs</url>
+          <line>110</line>
+          <properties documentPath="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" initialLine="110">
+            <startOffsets>
+              <option value="3793" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3852" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Library/BettingPlatformEmulator.cs</url>
+          <line>212</line>
+          <properties documentPath="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" initialLine="212">
+            <startOffsets>
+              <option value="7439" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7473" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Library/Block 3/Types/GiftVoucher.cs</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/Library/Block 3/Types/GiftVoucher.cs" initialLine="12">
+            <startOffsets>
+              <option value="306" />
+            </startOffsets>
+            <endOffsets>
+              <option value="307" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
