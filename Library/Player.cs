@@ -1,16 +1,36 @@
 using System;
 using System.Collections.Generic;
+using Library.Exceptions;
 
 namespace Library
 {
     
     public class Player
     {
+        public List<int> randomList = new List<int>();
+        
+        public Random a = new Random();
+        private int GenerateUniqueRandom(int id)
+        {
+            int Generated = 0;
+            do
+            {
+                Generated = a.Next(100000, 100000000);
+                if (!randomList.Contains(Generated))
+                {
+                    randomList.Add(Generated);
+                    return Generated;
+                }
+            } while (!randomList.Contains(Generated));
+
+            throw new LimitExceededException("No more unique from", randomList.Count);
+        }
+        
         private readonly Dictionary<int, Player> _dictionary;
         public Player(string firstName, string lastName, string email, string password, string currency)
         {
             Account = new Account(currency);
-            Id = new Random().Next(100000,100000000);
+            Id = GenerateUniqueRandom(Id);
             FirstName = firstName;
             LastName = lastName;
             Email = email;
