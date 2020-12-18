@@ -9,7 +9,7 @@ namespace Task_1._2
     {
         static void Main(string[] args)
         {
-            Account[] accounts = new Account[1000000];
+            Account[] accounts = new Account[100];
             for (var i = 0; i < accounts.Length; i++)
             {
                 accounts[i] = new Account("UAH");

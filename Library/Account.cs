@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Library.Exceptions;
 
 namespace Library
 {
@@ -12,10 +13,31 @@ namespace Library
     public class Account
     {
         private readonly Dictionary<int, AccountDetails> _dictionary;
+        
+        public List<int> randomList = new List<int>();
+        
+        public Random a = new Random();
+        private int GenerateUniqueRandom(int id)
+        {
+            int Generated = 0;
+            do
+            {
+                Generated = a.Next(100000, 100000000);
+                if (!randomList.Contains(Generated))
+                {
+                    randomList.Add(Generated);
+                    return Generated;
+                }
+            } while (!randomList.Contains(Generated));
+
+            throw new LimitExceededException("No more unique from", randomList.Count);
+        }
+        
 
         public Account(string сurrency)
         {
-            Id = new Random().Next(100000, 100000000);
+            //Id = new Random().Next(100000, 100000000);
+            Id = GenerateUniqueRandom(Id);
             try
             {
                 if (сurrency == "EUR" || сurrency == "USD" || сurrency == "UAH")

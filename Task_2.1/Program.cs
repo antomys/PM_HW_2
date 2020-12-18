@@ -32,6 +32,7 @@ namespace Task_2._1
 
         public static void Game()
         {
+            Console.WriteLine("3.");
             var sum = 10000m;
             BetService betService = new BetService();
             betService.min = 1.25m;
@@ -46,6 +47,15 @@ namespace Task_2._1
                     sum -= betSum;
                     result = betService.Bet(betSum);
                     sum += result;
+                    Console.WriteLine($"Bet {betSum} , won {result}, sum {sum}");
+                }
+
+                if (sum < 50)
+                {
+                    result = betService.Bet(sum);
+                    sum = 0;
+                    sum += result;
+                    Console.WriteLine($"Bet {betSum} , won {result}, sum {sum}");
                 }
                 
             } while (sum != 0 && sum < 150000);
