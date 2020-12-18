@@ -181,7 +181,7 @@ namespace Library
                 if (player.Email == login)
                     if (player.IsPasswordValid(pass))
                     {
-                        Console.WriteLine("Login successful!"); //TODO: remove because - points
+                        Console.WriteLine("Login successful!");
                         ActivePlayer = player;
                         isLogined = true;
                         break;
@@ -198,31 +198,39 @@ namespace Library
 
         void Logout()
         {
-            Console.WriteLine("Logging out..."); //todo:remove because - points
+            Console.WriteLine("Logging out...");
             ActivePlayer = null;
             Start();
         }
 
         private void Deposit()
         {
-            Console.WriteLine("Deposit method"); //todo:remove
-            Console.WriteLine("Please enter currency. Available: UAH,USD,EUR");
-            var currency = Console.ReadLine().ToUpper();
-            if (currency != "USD" && currency != "EUR" && currency != "UAH")
+            try
             {
-                Console.WriteLine("Try again.");
-                Deposit();
+                Console.WriteLine("Please enter currency. Available: UAH,USD,EUR");
+                var currency = Console.ReadLine().ToUpper();
+                if (currency != "USD" && currency != "EUR" && currency != "UAH")
+                {
+                    Console.WriteLine("Try again.");
+                    Deposit();
+                }
+                Console.WriteLine("Please enter amount");
+                decimal amount = 0m;
+                Decimal.TryParse(Console.ReadLine(), out amount);
+                _paymentService.StartDeposit(amount,currency);
+                ActivePlayer.Deposit(amount,currency);
+                Console.WriteLine($"My balance: {ActivePlayer.Account.Amount} {ActivePlayer.Account.Currency}");
+                _Account.Deposit(amount,currency);
+                Console.WriteLine($"Platform balance: {_Account.Amount} {_Account.Currency}");
+                Console.WriteLine("Success");
+                Start();
             }
-            Console.WriteLine("Please enter amount");
-            decimal amount = 0m;
-            Decimal.TryParse(Console.ReadLine(), out amount);
-            _paymentService.StartDeposit(amount,currency);
-            ActivePlayer.Deposit(amount,currency);
-            Console.WriteLine($"My balance: {ActivePlayer.Account.Amount} {ActivePlayer.Account.Currency}");
-            _Account.Deposit(amount,currency);
-            Console.WriteLine($"Platform balance: {_Account.Amount} {_Account.Currency}");
-            Console.WriteLine("Success");
-            Start();
+            catch(Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+                Start();
+            }
+            
         }
 
         private void Withdraw()

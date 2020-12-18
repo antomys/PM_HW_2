@@ -36,7 +36,6 @@ namespace Library
 
         public Account(string сurrency)
         {
-            //Id = new Random().Next(100000, 100000000);
             Id = GenerateUniqueRandom(Id);
             try
             {
@@ -100,7 +99,6 @@ namespace Library
         public decimal GetBalance(string сurrency)
         {
             var convertCurrency = Converter(_dictionary[Id].Amount,сurrency);
-            //Console.WriteLine($"Your ID: {_dictionary[_Id]} and your balance is {convertCurrency} {Currency}");
             return convertCurrency;
         }
         private decimal OutsideToInside(decimal outsideAmount,string outsideCurrency)

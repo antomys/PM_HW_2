@@ -17,12 +17,12 @@ namespace Library
             Password = password;
             _dictionary=new Dictionary<int, Player> { { Id, this } };
         }
-        private int Id { get; set; }
-        private string FirstName { get; set; }
-        private string LastName { get; set; }
-        public string Email { get; set; }
-        private string Password { get; set; }
-        public Account Account { get; set; }
+        private int Id { get;}
+        private string FirstName { get;}
+        private string LastName { get; }
+        public string Email { get; }
+        private string Password { get; }
+        public Account Account { get; }
 
         public bool IsPasswordValid(string passord)
         {
@@ -33,14 +33,14 @@ namespace Library
 
         public void Deposit(decimal amount, string currency)
         {
-            var PlayerCurrency = Account.Currency;
-            var PlayerAmount = Account.Amount;
-            if (PlayerCurrency == currency)
-                _dictionary[Id].Account.Amount = PlayerAmount + amount;
+            var playerCurrency = Account.Currency;
+            var playerAmount = Account.Amount;
+            if (playerCurrency == currency)
+                _dictionary[Id].Account.Amount = playerAmount + amount;
             else
             {
                 var converted = OutsideToInside(amount, currency);
-                Account.Amount = converted + PlayerAmount;
+                Account.Amount = converted + playerAmount;
             }
         }
         public void Withdraw(decimal amount, string currency)
@@ -54,7 +54,6 @@ namespace Library
         public decimal GetBalance(string сurrency)
         {
             var convertCurrency = Converter(Account.Amount,сurrency);
-            //Console.WriteLine($"Your ID: {_dictionary[_Id]} and your balance is {convertCurrency} {Currency}");
             return Math.Round(convertCurrency,2);
         }
         

@@ -20,13 +20,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28cac893-cc2a-4340-a647-f9e6e5e90e21" name="Default Changelist" comment="To do 4.2">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="28cac893-cc2a-4340-a647-f9e6e5e90e21" name="Default Changelist" comment="Done">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Block 3/Types/Bank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Block 3/Types/Bank.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Block 3/Types/GiftVoucher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Block 3/Types/GiftVoucher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PaymentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PaymentService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_4.2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_4.2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Account.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,7 @@
     <setting file="mock:///home/antomys/RiderProjects/PM_HW_2/Task_4.2/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task_1.4/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/75/d2b15b7d/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/antomys/RiderProjects/PM_HW_2/Task_4.2/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/65/78f15902/Exception.cs" root0="SKIP_HIGHLIGHTING" />
@@ -78,12 +76,10 @@
         <option value="$PROJECT_DIR$/Library/Block 3/PaymentMethodBase.cs" />
         <option value="$PROJECT_DIR$/Library/Block 3/Types/Stereobank.cs" />
         <option value="$PROJECT_DIR$/Task_3.2/Program.cs" />
-        <option value="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" />
         <option value="$PROJECT_DIR$/Library/Player.cs" />
         <option value="$PROJECT_DIR$/Task_1.2/Program.cs" />
         <option value="$PROJECT_DIR$/Task_2.1/Program.cs" />
         <option value="$PROJECT_DIR$/Task_4.1/Program.cs" />
-        <option value="$PROJECT_DIR$/Library/Account.cs" />
         <option value="$PROJECT_DIR$/Library/Exceptions/PaymentServiceException.cs" />
         <option value="$PROJECT_DIR$/Library/Exceptions/InsufficientFundsException.cs" />
         <option value="$PROJECT_DIR$/Library/Exceptions/LimitExceededException.cs" />
@@ -96,6 +92,8 @@
         <option value="$PROJECT_DIR$/Library/PaymentService.cs" />
         <option value="$PROJECT_DIR$/Library/Block 3/Types/GiftVoucher.cs" />
         <option value="$PROJECT_DIR$/Task_4.2/Program.cs" />
+        <option value="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" />
+        <option value="$PROJECT_DIR$/Library/Account.cs" />
       </list>
     </option>
   </component>
@@ -124,7 +122,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Task_3.1">
+  <component name="RunManager" selected=".NET Project.BettingPlatformEmulatorTest">
     <configuration name="BettingPlatformEmulatorTest" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -410,7 +408,7 @@
       <updated>1607707281372</updated>
       <workItem from="1607707292529" duration="1835000" />
       <workItem from="1607860830542" duration="59427000" />
-      <workItem from="1608190677289" duration="40336000" />
+      <workItem from="1608190677289" duration="40794000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607973015591</created>
@@ -454,7 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608262702134</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Done">
+      <created>1608266883810</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608266883810</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Done">
+      <created>1608266888424</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608266888424</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +491,8 @@
     <MESSAGE value="Mid work." />
     <MESSAGE value="Block 3 done" />
     <MESSAGE value="To do 4.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="To do 4.2" />
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="316" y="272" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607962263661">
@@ -490,22 +503,22 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="357" y="455" width="246" height="203" key="Github.ShareDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1607973170942" />
-    <state width="914" height="285" key="GridCell.Tab.0.bottom" timestamp="1608266749297">
+    <state width="1874" height="285" key="GridCell.Tab.0.bottom" timestamp="1608267116031">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608266749297" />
-    <state width="914" height="285" key="GridCell.Tab.0.center" timestamp="1608266749297">
+    <state width="1874" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608267116031" />
+    <state width="1874" height="285" key="GridCell.Tab.0.center" timestamp="1608267116030">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608266749297" />
-    <state width="914" height="285" key="GridCell.Tab.0.left" timestamp="1608266749296">
+    <state width="1874" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608267116030" />
+    <state width="1874" height="285" key="GridCell.Tab.0.left" timestamp="1608267116030">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608266749296" />
-    <state width="914" height="285" key="GridCell.Tab.0.right" timestamp="1608266749297">
+    <state width="1874" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608267116030" />
+    <state width="1874" height="285" key="GridCell.Tab.0.right" timestamp="1608267116030">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608266749297" />
+    <state width="1874" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608267116030" />
     <state width="914" height="332" key="GridCell.Tab.1.bottom" timestamp="1608266712262">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -566,10 +579,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1060" y="130" width="760" height="850" key="VCS.FileHistoryDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1608266445795" />
-    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1608264567917">
+    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1608266891455">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1608264567917" />
+    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1608266891455" />
     <state x="1087" y="171" width="706" height="768" key="find.popup" timestamp="1608255395179">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
