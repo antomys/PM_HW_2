@@ -1,10 +1,13 @@
 using System;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using Library.Exceptions;
 
 namespace Library.Types
 {
     public class GiftVoucher: PaymentMethodBase,ISupportDeposit
     {
+        private List<string> allNumbers = new List<string>();
         public GiftVoucher()
         {
             Name = "GiftVoucher";
@@ -24,7 +27,16 @@ namespace Library.Types
                         Console.WriteLine("Wrong number. Please try again.");
                 } while (!expression.IsMatch(voucherNumber));
 
-                Console.WriteLine("Success!");
+                if (!allNumbers.Contains(voucherNumber))
+                {
+                    allNumbers.Add(voucherNumber);
+                    Console.WriteLine("Success!");
+                }
+                else
+                {
+                    throw new GiftVoucherUsedVoucher(voucherNumber.ToString());
+                }
+                
             }
             else
             {

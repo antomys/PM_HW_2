@@ -25,7 +25,7 @@ namespace Library.Types
 
         public void StartWithdrawal(decimal amount, string currency)
         {
-            Console.WriteLine($"Welcome, dear client, to the online bank PUK");
+            Console.WriteLine($"Welcome, dear client, to the online bank {Name}");
             Console.WriteLine("Please, enter your login");
             var login = Console.In.ReadLine();
             Console.WriteLine("Please, enter your password");

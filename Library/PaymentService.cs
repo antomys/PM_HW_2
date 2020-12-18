@@ -14,7 +14,7 @@ namespace Library
             public decimal Amount;
         }
         private readonly PaymentMethodBase[] _availablePaymentMethod;
-        private Dictionary<int, TransactionTracker> _dictionary;
+        private Dictionary<int, TransactionTracker> _dictionary = new Dictionary<int, TransactionTracker>();
         private int idx = 0;
 
         public PaymentService()
@@ -45,7 +45,9 @@ namespace Library
             var deposit = (ISupportDeposit)_availablePaymentMethod[input];
             var nameOfBank = _availablePaymentMethod[input].Name.ToLower();
             var convertedtoUkr = OutsideToInside(amount, currency);
+            Exception_Handler(nameOfBank,convertedtoUkr);
             deposit.StartDeposit(amount,currency);
+            _dictionary.Add(idx,new TransactionTracker {Amount = convertedtoUkr, BankName = nameOfBank});
 
         }
         public void StartWithdraw(decimal amount, string currency)
@@ -81,5 +83,55 @@ namespace Library
                 }
             return outsideAmount;
         }
+
+        private void Exception_Handler(string nameofBank, decimal amount)
+        {
+            switch (nameofBank)
+            {
+                case "creditcard":
+                    if(amount>=3000)
+                        throw new OverLimitCreditCard(amount.ToString());
+                    break;
+                case "priver48":
+                    int counter = 0; var sum = 0m;
+                    foreach (var VARIABLE in _dictionary)
+                    {
+                        if (VARIABLE.Value.BankName == "priver48")
+                        {
+                            counter++;
+                            sum += VARIABLE.Value.Amount;
+                        }
+                    }
+                    if(counter>1 && sum>=10000 || amount>=10000)
+                        throw new Privat24OverLimitException(amount.ToString());
+                    break;
+                case "stereobank":
+                    counter = 0; sum = 0m;
+                    foreach (var VARIABLE in _dictionary)
+                    {
+                        if (VARIABLE.Value.BankName == "stereobank")
+                        {
+                            counter++;
+                            sum += VARIABLE.Value.Amount;
+                        }
+                    }
+                    if(counter>2 && sum>=7000)
+                        throw new MonobankOverLimitException(amount.ToString());
+                    else if(amount>=3000)
+                        throw new MonobankInternetLimit(amount.ToString());
+                    break;
+                default:
+                    var percent = new Random().Next(0,100);
+                    if(percent<=2)
+                        throw new PaymentServiceException();
+                    else
+                    {
+                        break;
+                    }
+                    
+            }
+            
+        }
+        
     }
 }

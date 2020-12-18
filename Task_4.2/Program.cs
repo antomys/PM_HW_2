@@ -5,28 +5,33 @@ namespace Task_4._2
 {
     class Program
     {
+        static PaymentService paymentService = new PaymentService();
         
         static void Main(string[] args)
         {
-            try
+            do
             {
-                Exceptions();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-            }
+                try
+                {
+                    Exceptions(paymentService);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+                
+            } while (Console.In.ReadLine() != "exit");
+            
         }
 
-        static void Exceptions()
+        static void Exceptions(PaymentService paymentService)
         {
-            PaymentService paymentService = new PaymentService();
             Console.WriteLine("Please enter currency. Available: UAH,USD,EUR");
             var currency = Console.ReadLine().ToUpper();
             if (currency != "USD" && currency != "EUR" && currency != "UAH")
             {
                 Console.WriteLine("Try again.");
-                Exceptions();
+                Exceptions(paymentService);
             }
             Console.WriteLine("Please enter amount");
             decimal amount = 0m;
