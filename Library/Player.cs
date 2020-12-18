@@ -26,42 +26,42 @@ namespace Library
 
         public bool IsPasswordValid(string passord)
         {
-            if (_dictionary[Id].Password == passord)
+            if (Password == passord)
                 return true;
             return false;
         }
 
         public void Deposit(decimal amount, string currency)
         {
-            var PlayerCurrency = _dictionary[Id].Account.Currency;
-            var PlayerAmount = _dictionary[Id].Account.Amount;
+            var PlayerCurrency = Account.Currency;
+            var PlayerAmount = Account.Amount;
             if (PlayerCurrency == currency)
                 _dictionary[Id].Account.Amount = PlayerAmount + amount;
             else
             {
                 var converted = OutsideToInside(amount, currency);
-                _dictionary[Id].Account.Amount = converted + PlayerAmount;
+                Account.Amount = converted + PlayerAmount;
             }
         }
         public void Withdraw(decimal amount, string currency)
         {
             var convertedCurrency = OutsideToInside(amount,currency);
-            if(_dictionary[Id].Account.Amount - convertedCurrency <=0)
-                throw new InvalidOperationException($"Not enough money on {_dictionary[Id]} account!");
-            _dictionary[Id].Account.Amount -= convertedCurrency;
+            if((Account.Amount+0.00001m - convertedCurrency) <=0)
+                throw new InvalidOperationException($"Not enough money on {Id} account!");
+            Account.Amount -= convertedCurrency;
         }
         
         public decimal GetBalance(string сurrency)
         {
-            var convertCurrency = Converter(_dictionary[Id].Account.Amount,сurrency);
+            var convertCurrency = Converter(Account.Amount,сurrency);
             //Console.WriteLine($"Your ID: {_dictionary[_Id]} and your balance is {convertCurrency} {Currency}");
             return Math.Round(convertCurrency,2);
         }
         
         private decimal Converter(decimal amount,string currency)
         {
-            if(currency != _dictionary[Id].Account.Currency)
-                switch (_dictionary[Id].Account.Currency)
+            if(currency != Account.Currency)
+                switch (Account.Currency)
                 {
                     case "EUR":
                         if (currency == "USD")
@@ -88,8 +88,8 @@ namespace Library
         
         private decimal OutsideToInside(decimal outsideAmount,string outsideCurrency)
         {
-            if(outsideCurrency != _dictionary[Id].Account.Currency)
-                switch (_dictionary[Id].Account.Currency)
+            if(outsideCurrency != Account.Currency)
+                switch (Account.Currency)
                 {
                     case "EUR":
                         if (outsideCurrency == "USD")

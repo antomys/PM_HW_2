@@ -63,7 +63,7 @@ namespace Library
                         break;
                 }
             _dictionary[Id].Amount += amount;
-            Amount += amount;
+            Amount =Math.Round(Amount + amount, 2);
         }
 
         public virtual void Withdraw(decimal amount, string сurrency)

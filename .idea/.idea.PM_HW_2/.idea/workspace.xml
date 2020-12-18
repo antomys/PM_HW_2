@@ -18,27 +18,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28cac893-cc2a-4340-a647-f9e6e5e90e21" name="Default Changelist" comment="Refactoring">
-      <change afterPath="$PROJECT_DIR$/Library/BetService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Block 3/ISupportDeposit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Block 3/ISupportWithdrawal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Block 3/PaymentMethodBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Block 3/Types/Bank.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Block 3/Types/CreditCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Block 3/Types/GiftVoucher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Block 3/Types/Privet48.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Block 3/Types/Stereobank.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_1.4/Task_1.4.csproj" afterDir="false" />
+    <list default="true" id="28cac893-cc2a-4340-a647-f9e6e5e90e21" name="Default Changelist" comment="Mid work.">
+      <change afterPath="$PROJECT_DIR$/Library/PaymentService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Account.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/IAccount.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PM_HW_2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/PM_HW_2.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1.1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1.2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1.3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.3/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1.3/Task_1.3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.3/Task_1.3.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Block 3/PaymentMethodBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Block 3/PaymentMethodBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Block 3/Types/CreditCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Block 3/Types/CreditCard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Block 3/Types/Stereobank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Block 3/Types/Stereobank.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_3.1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3.1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_3.2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3.2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_3.2/Task_3.2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3.2/Task_3.2.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +42,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/0c/247515e1/Decimal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/antomys/RiderProjects/PM_HW_2/Library/Account.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/96/b5eb4f10/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task_1.4/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/75/d2b15b7d/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/d1/df2e29be/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -72,23 +66,24 @@
         <option value="$PROJECT_DIR$/Task_1.1/Program.cs" />
         <option value="$PROJECT_DIR$/Task_1.5/Program.cs" />
         <option value="$PROJECT_DIR$/BettingPlatformEmulatorTest/Program.cs" />
-        <option value="$PROJECT_DIR$/Library/Player.cs" />
         <option value="$PROJECT_DIR$/Task_2.1/Program.cs" />
         <option value="$PROJECT_DIR$/Task_2.2/Program.cs" />
         <option value="$PROJECT_DIR$/Library/BetService.cs" />
-        <option value="$PROJECT_DIR$/Library/Account.cs" />
         <option value="$PROJECT_DIR$/Library/PaymentMethodBase.cs" />
         <option value="$PROJECT_DIR$/Library/Block 3/ISupportDeposit.cs" />
         <option value="$PROJECT_DIR$/Library/Block 3/ISupportWithdrawal.cs" />
-        <option value="$PROJECT_DIR$/Library/Block 3/PaymentMethodBase.cs" />
         <option value="$PROJECT_DIR$/Library/Block 3/Types/Privet48.cs" />
         <option value="$PROJECT_DIR$/Library/Block 3/Types/Bank.cs" />
-        <option value="$PROJECT_DIR$/Library/Block 3/Types/Stereobank.cs" />
-        <option value="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" />
-        <option value="$PROJECT_DIR$/Library/Block 3/Types/CreditCard.cs" />
         <option value="$PROJECT_DIR$/Library/Block 3/Types/GiftVoucher.cs" />
         <option value="$PROJECT_DIR$/Task_3.1/Program.cs" />
+        <option value="$PROJECT_DIR$/Library/Block 3/Types/CreditCard.cs" />
+        <option value="$PROJECT_DIR$/Library/Block 3/PaymentMethodBase.cs" />
+        <option value="$PROJECT_DIR$/Library/PaymentService.cs" />
+        <option value="$PROJECT_DIR$/Library/Block 3/Types/Stereobank.cs" />
         <option value="$PROJECT_DIR$/Task_3.2/Program.cs" />
+        <option value="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" />
+        <option value="$PROJECT_DIR$/Library/Account.cs" />
+        <option value="$PROJECT_DIR$/Library/Player.cs" />
       </list>
     </option>
   </component>
@@ -102,8 +97,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.054360136" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.054360136" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.026044494" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.026044494" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -117,7 +112,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Task_3.1">
+  <component name="RunManager" selected=".NET Project.BettingPlatformEmulatorTest">
     <configuration name="BettingPlatformEmulatorTest" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -350,7 +345,7 @@
       <updated>1607707281372</updated>
       <workItem from="1607707292529" duration="1835000" />
       <workItem from="1607860830542" duration="59427000" />
-      <workItem from="1608190677289" duration="26094000" />
+      <workItem from="1608190677289" duration="30876000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607973015591</created>
@@ -366,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607975327757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Mid work.">
+      <created>1608248583032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608248583032</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +390,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="Mid work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mid work." />
   </component>
   <component name="WindowStateProjectService">
     <state x="316" y="272" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607962263661">
@@ -399,70 +402,70 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="357" y="455" width="246" height="203" key="Github.ShareDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1607973170942" />
-    <state width="914" height="332" key="GridCell.Tab.0.bottom" timestamp="1608248489477">
+    <state width="1874" height="285" key="GridCell.Tab.0.bottom" timestamp="1608256050338">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608248489477" />
-    <state width="914" height="332" key="GridCell.Tab.0.center" timestamp="1608248489473">
+    <state width="1874" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608256050338" />
+    <state width="1874" height="285" key="GridCell.Tab.0.center" timestamp="1608256050337">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608248489473" />
-    <state width="914" height="332" key="GridCell.Tab.0.left" timestamp="1608248489471">
+    <state width="1874" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608256050337" />
+    <state width="1874" height="285" key="GridCell.Tab.0.left" timestamp="1608256050337">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608248489471" />
-    <state width="914" height="332" key="GridCell.Tab.0.right" timestamp="1608248489475">
+    <state width="1874" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608256050337" />
+    <state width="1874" height="285" key="GridCell.Tab.0.right" timestamp="1608256050338">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608248489475" />
-    <state width="914" height="332" key="GridCell.Tab.1.bottom" timestamp="1608248482273">
+    <state width="1874" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608256050338" />
+    <state width="1874" height="332" key="GridCell.Tab.1.bottom" timestamp="1608255817921">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608248482273" />
-    <state width="914" height="332" key="GridCell.Tab.1.center" timestamp="1608248482272">
+    <state width="1874" height="332" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817921" />
+    <state width="1874" height="332" key="GridCell.Tab.1.center" timestamp="1608255817920">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608248482272" />
-    <state width="914" height="332" key="GridCell.Tab.1.left" timestamp="1608248482272">
+    <state width="1874" height="332" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817920" />
+    <state width="1874" height="332" key="GridCell.Tab.1.left" timestamp="1608255817920">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608248482272" />
-    <state width="914" height="332" key="GridCell.Tab.1.right" timestamp="1608248482273">
+    <state width="1874" height="332" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817920" />
+    <state width="1874" height="332" key="GridCell.Tab.1.right" timestamp="1608255817921">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608248482273" />
-    <state width="914" height="332" key="GridCell.Tab.2.bottom" timestamp="1608248480697">
+    <state width="1874" height="332" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817921" />
+    <state width="1874" height="332" key="GridCell.Tab.2.bottom" timestamp="1608255817922">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.2.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480697" />
-    <state width="914" height="332" key="GridCell.Tab.2.center" timestamp="1608248480695">
+    <state width="1874" height="332" key="GridCell.Tab.2.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817922" />
+    <state width="1874" height="332" key="GridCell.Tab.2.center" timestamp="1608255817922">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.2.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480695" />
-    <state width="914" height="332" key="GridCell.Tab.2.left" timestamp="1608248480694">
+    <state width="1874" height="332" key="GridCell.Tab.2.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817922" />
+    <state width="1874" height="332" key="GridCell.Tab.2.left" timestamp="1608255817921">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.2.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480694" />
-    <state width="914" height="332" key="GridCell.Tab.2.right" timestamp="1608248480696">
+    <state width="1874" height="332" key="GridCell.Tab.2.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817921" />
+    <state width="1874" height="332" key="GridCell.Tab.2.right" timestamp="1608255817922">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.2.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480696" />
-    <state width="914" height="332" key="GridCell.Tab.3.bottom" timestamp="1608248480700">
+    <state width="1874" height="332" key="GridCell.Tab.2.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817922" />
+    <state width="1874" height="332" key="GridCell.Tab.3.bottom" timestamp="1608255817923">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.3.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480700" />
-    <state width="914" height="332" key="GridCell.Tab.3.center" timestamp="1608248480698">
+    <state width="1874" height="332" key="GridCell.Tab.3.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817923" />
+    <state width="1874" height="332" key="GridCell.Tab.3.center" timestamp="1608255817923">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.3.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480698" />
-    <state width="914" height="332" key="GridCell.Tab.3.left" timestamp="1608248480698">
+    <state width="1874" height="332" key="GridCell.Tab.3.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817923" />
+    <state width="1874" height="332" key="GridCell.Tab.3.left" timestamp="1608255817923">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.3.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480698" />
-    <state width="914" height="332" key="GridCell.Tab.3.right" timestamp="1608248480699">
+    <state width="1874" height="332" key="GridCell.Tab.3.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817923" />
+    <state width="1874" height="332" key="GridCell.Tab.3.right" timestamp="1608255817923">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.3.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608248480699" />
+    <state width="1874" height="332" key="GridCell.Tab.3.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608255817923" />
     <state x="1017" y="379" width="800" height="533" key="Rider.ProjectTemplateDialog.Size" timestamp="1608248564429">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -471,10 +474,14 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1226" y="250" width="418" height="613" key="RiderGenerateDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1608245800700" />
-    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1607973337661">
+    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1608248614067">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1607973337661" />
+    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1608248614067" />
+    <state x="1087" y="171" width="706" height="768" key="find.popup" timestamp="1608255395179">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1087" y="171" width="706" height="768" key="find.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1608255395179" />
     <state x="1103" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1608247353518">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -488,39 +495,13 @@
           <line>55</line>
           <properties documentPath="$PROJECT_DIR$/Library/Player.cs" initialLine="55">
             <startOffsets>
-              <option value="2021" />
+              <option value="1923" />
             </startOffsets>
             <endOffsets>
-              <option value="2094" />
+              <option value="1980" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/BettingPlatformEmulator.cs</url>
-          <line>110</line>
-          <properties documentPath="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" initialLine="110">
-            <startOffsets>
-              <option value="3793" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3852" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/BettingPlatformEmulator.cs</url>
-          <line>212</line>
-          <properties documentPath="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" initialLine="212">
-            <startOffsets>
-              <option value="7439" />
-            </startOffsets>
-            <endOffsets>
-              <option value="7473" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Library/Block 3/Types/GiftVoucher.cs</url>
@@ -534,6 +515,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Library/BettingPlatformEmulator.cs</url>
+          <line>112</line>
+          <properties documentPath="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" initialLine="112">
+            <startOffsets>
+              <option value="3847" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3906" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

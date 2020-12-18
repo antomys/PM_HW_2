@@ -6,4 +6,8 @@
         <RootNamespace>Task_3._2</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Library\Library.csproj" />
+    </ItemGroup>
+
 </Project>

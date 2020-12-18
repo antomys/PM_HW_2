@@ -1,4 +1,5 @@
 ﻿using System;
+using Library;
 
 namespace Task_3._2
 {
@@ -6,7 +7,11 @@ namespace Task_3._2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PaymentService paymentService = new PaymentService();
+            paymentService.StartDeposit(50,"USD");
+            paymentService.StartWithdraw(50,"USD");
+            paymentService.StartDeposit(500,"USD");
+            paymentService.StartWithdraw(500,"USD");
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using Library.Block_3.Types;
 using Library.Types;
 
 namespace Task_3._1

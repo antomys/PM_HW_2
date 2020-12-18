@@ -1,8 +1,7 @@
 using System;
 using System.Text.RegularExpressions;
-using Library;
 
-namespace Library.Types
+namespace Library.Block_3.Types
 {
     public class CreditCard: PaymentMethodBase, ISupportDeposit, ISupportWithdrawal
     {

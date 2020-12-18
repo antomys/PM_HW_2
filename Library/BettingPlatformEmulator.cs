@@ -5,9 +5,9 @@ namespace Library
 {
     public class BettingPlatformEmulator
     {
-        //private readonly string StopWord = "exit";
         BetService betService = new BetService();
-        //private readonly string Stopword = "exit";
+        
+        PaymentService _paymentService = new PaymentService();
         private List<Player> Players { get; set; }
         private Player ActivePlayer { get; set; }
         private Account _Account { get; set; }
@@ -59,7 +59,7 @@ namespace Library
                     case 1: Register();
                         break;
                     case 2:
-                        Console.WriteLine($"You are already loggined as " +
+                        Console.WriteLine($"You are already logged as " +
                                           $"\"{ActivePlayer.Email}\"");
                         Start();
                         break;
@@ -94,30 +94,38 @@ namespace Library
 
         private void Bet()
         {
-            int input;
-            Console.WriteLine($"Current coefficient is {betService.Odd}");
-            if (ActivePlayer.Account.Amount <= 0)
+            try
             {
-                Console.WriteLine("You are not able to play with 0 balance. Please deposit");
-                Deposit();
+                int input;
+                Console.WriteLine($"Current coefficient is {betService.Odd}");
+                if (ActivePlayer.Account.Amount <= 0)
+                {
+                    Console.WriteLine("You are not able to play with 0 balance. Please deposit");
+                    Deposit();
+                }
+                Console.WriteLine("Please Enter amount of bet");
+                Int32.TryParse(Console.In.ReadLine(), out input);
+                if (input <= 0 || input > ActivePlayer.Account.Amount)
+                {
+                    Console.WriteLine("Try again. Not enough or negative bet");
+                    Bet();
+                }
+                ActivePlayer.Withdraw(input,ActivePlayer.Account.Currency);
+                var result = betService.Bet(input);
+                if(result<=0)
+                    Console.WriteLine("You lost");
+                else
+                {
+                    Console.WriteLine($"You won {result} {ActivePlayer.Account.Currency}");
+                }
+                ActivePlayer.Deposit(result,ActivePlayer.Account.Currency);
+                Start();
             }
-            Console.WriteLine("Please Enter amount of bet");
-            Int32.TryParse(Console.In.ReadLine(), out input);
-            if (input <= 0 || input > ActivePlayer.Account.Amount)
+            catch (Exception exception)
             {
-                Console.WriteLine("Try again. Not enough or negative bet");
-                Bet();
+                Console.WriteLine(exception.Message);
             }
-            ActivePlayer.Withdraw(input,ActivePlayer.Account.Currency);
-            var result = betService.Bet(input);
-            if(result<=0)
-                Console.WriteLine("You lost");
-            else
-            {
-                Console.WriteLine($"You won {result} {ActivePlayer.Account.Currency}");
-            }
-            ActivePlayer.Deposit(result,ActivePlayer.Account.Currency);
-            Start();
+            
         }
 
         private void Register()
@@ -208,6 +216,7 @@ namespace Library
             Console.WriteLine("Please enter amount");
             decimal amount = 0m;
             Decimal.TryParse(Console.ReadLine(), out amount);
+            _paymentService.StartDeposit(amount,currency);
             ActivePlayer.Deposit(amount,currency);
             Console.WriteLine($"My balance: {ActivePlayer.Account.Amount} {ActivePlayer.Account.Currency}");
             _Account.Deposit(amount,currency);
@@ -243,6 +252,7 @@ namespace Library
                 }
                 else
                 {
+                    _paymentService.StartWithdraw(amount,currency);
                     ActivePlayer.Withdraw(amount,currency);
                     _Account.Withdraw(amount,currency);
                     Start();

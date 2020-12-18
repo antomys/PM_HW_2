@@ -33,6 +33,7 @@
           </e>
         </e>
         <e p="Library.csproj" t="IncludeRecursive" />
+        <e p="PaymentService.cs" t="Include" />
         <e p="Player.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -137,6 +138,18 @@
           <e p="Debug" t="Include">
             <e p="net48" t="Include">
               <e p="Task_3.1.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Task_3.2" t="IncludeRecursive">
+        <e p="Program.cs" t="Include" />
+        <e p="Task_3.2.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net48" t="Include">
+              <e p="Task_3.2.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
