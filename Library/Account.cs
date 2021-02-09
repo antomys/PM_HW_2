@@ -4,17 +4,17 @@ using Library.Exceptions;
 
 namespace Library
 {
-    class AccountDetails
+    internal class AccountDetails
     {
         public decimal Amount;
         public string Currency;
     }
     
-    public class Account
+    public sealed class Account
     {
         private readonly Dictionary<int, AccountDetails> _dictionary;
-        
-        public List<int> randomList = new List<int>();
+
+        private List<int> randomList = new List<int>();
         
         public Random a = new Random();
         private int GenerateUniqueRandom(int id)
@@ -59,7 +59,7 @@ namespace Library
 
         public decimal Amount { get; set; }
 
-        public virtual void Deposit(decimal amount, string сurrency)
+        public void Deposit(decimal amount, string сurrency)
         {
             if(сurrency != Currency)
                 switch (сurrency)
@@ -87,7 +87,7 @@ namespace Library
             Amount =Math.Round(Amount + amount, 2);
         }
 
-        public virtual void Withdraw(decimal amount, string сurrency)
+        public void Withdraw(decimal amount, string сurrency)
         {
             var convertedCurrency = OutsideToInside(amount,сurrency);
             if(_dictionary[Id].Amount - convertedCurrency <=0)

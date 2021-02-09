@@ -21,22 +21,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28cac893-cc2a-4340-a647-f9e6e5e90e21" name="Default Changelist" comment="Small refactoring">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BettingPlatformEmulatorTest/BettingPlatformEmulatorTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BettingPlatformEmulatorTest/BettingPlatformEmulatorTest.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Library.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Library.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1.1/Task_1.1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.1/Task_1.1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1.2/Task_1.2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.2/Task_1.2.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1.3/Task_1.3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.3/Task_1.3.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1.4/Task_1.4.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.4/Task_1.4.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1.5/Task_1.5.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.5/Task_1.5.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_2.1/Task_2.1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.1/Task_2.1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_2.2/Task_2.2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.2/Task_2.2.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_3.1/Task_3.1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3.1/Task_3.1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_3.2/Task_3.2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3.2/Task_3.2.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_4.1/Task_4.1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_4.1/Task_4.1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_4.2/Task_4.2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_4.2/Task_4.2.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Account.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.1/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +34,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/0c/247515e1/Decimal.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/96/b5eb4f10/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/d1/df2e29be/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/antomys/RiderProjects/PM_HW_2/Library/Account.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Task_2.2/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/antomys/RiderProjects/PM_HW_2/Task_4.2/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task_1.4/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/75/d2b15b7d/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/antomys/RiderProjects/PM_HW_2/Task_4.2/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/65/78f15902/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Task_2.2/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Task_1.1/Program.cs" />
+      <option value="$PROJECT_DIR$/Library/Account.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1lWKBkiR8RruiTHQEgXY6yVqDRt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -91,7 +69,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Tast_1.4">
+  <component name="RunManager" selected=".NET Project.Task_1.1">
     <configuration name="BettingPlatformEmulatorTest" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -380,6 +358,7 @@
       <workItem from="1608190677289" duration="41001000" />
       <workItem from="1612854347988" duration="193000" />
       <workItem from="1612854720178" duration="48000" />
+      <workItem from="1612854890478" duration="778000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607973015591</created>
@@ -474,104 +453,6 @@
     <MESSAGE value="Done" />
     <MESSAGE value="Small refactoring" />
     <option name="LAST_COMMIT_MESSAGE" value="Small refactoring" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="316" y="272" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607962263661">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state x="316" y="272" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1607962263661" />
-    <state x="357" y="455" width="246" height="203" key="Github.ShareDialog" timestamp="1607973170942">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state x="357" y="455" width="246" height="203" key="Github.ShareDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1607973170942" />
-    <state width="1874" height="285" key="GridCell.Tab.0.bottom" timestamp="1608267478944">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608267478944" />
-    <state width="1874" height="285" key="GridCell.Tab.0.center" timestamp="1608267478944">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608267478944" />
-    <state width="1874" height="285" key="GridCell.Tab.0.left" timestamp="1608267478943">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608267478943" />
-    <state width="1874" height="285" key="GridCell.Tab.0.right" timestamp="1608267478944">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608267478944" />
-    <state width="914" height="332" key="GridCell.Tab.1.bottom" timestamp="1608266712262">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712262" />
-    <state width="914" height="332" key="GridCell.Tab.1.center" timestamp="1608266712262">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712262" />
-    <state width="914" height="332" key="GridCell.Tab.1.left" timestamp="1608266712261">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712261" />
-    <state width="914" height="332" key="GridCell.Tab.1.right" timestamp="1608266712262">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712262" />
-    <state width="914" height="332" key="GridCell.Tab.2.bottom" timestamp="1608266712263">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.2.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712263" />
-    <state width="914" height="332" key="GridCell.Tab.2.center" timestamp="1608266712263">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.2.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712263" />
-    <state width="914" height="332" key="GridCell.Tab.2.left" timestamp="1608266712263">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.2.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712263" />
-    <state width="914" height="332" key="GridCell.Tab.2.right" timestamp="1608266712263">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.2.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712263" />
-    <state width="914" height="332" key="GridCell.Tab.3.bottom" timestamp="1608266712264">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.3.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712264" />
-    <state width="914" height="332" key="GridCell.Tab.3.center" timestamp="1608266712264">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.3.center/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712264" />
-    <state width="914" height="332" key="GridCell.Tab.3.left" timestamp="1608266712264">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.3.left/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712264" />
-    <state width="914" height="332" key="GridCell.Tab.3.right" timestamp="1608266712264">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="914" height="332" key="GridCell.Tab.3.right/0.30.1920.1050@0.30.1920.1050" timestamp="1608266712264" />
-    <state x="1017" y="379" width="800" height="533" key="Rider.ProjectTemplateDialog.Size" timestamp="1608259494691">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state x="1017" y="379" width="800" height="533" key="Rider.ProjectTemplateDialog.Size/0.30.1920.1050@0.30.1920.1050" timestamp="1608259494691" />
-    <state x="1226" y="250" width="418" height="613" key="RiderGenerateDialog" timestamp="1608245800700">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state x="1226" y="250" width="418" height="613" key="RiderGenerateDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1608245800700" />
-    <state x="1060" y="130" width="760" height="850" key="VCS.FileHistoryDialog" timestamp="1608266445795">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state x="1060" y="130" width="760" height="850" key="VCS.FileHistoryDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1608266445795" />
-    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1608266891455">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state x="75" y="291" width="800" height="531" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1608266891455" />
-    <state x="1087" y="171" width="706" height="768" key="find.popup" timestamp="1608255395179">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state x="1087" y="171" width="706" height="768" key="find.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1608255395179" />
-    <state x="1103" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1608247353518">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state x="1103" y="261" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1608247353518" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

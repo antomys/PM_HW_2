@@ -9,15 +9,15 @@ namespace Task_1._1
         {
             Console.WriteLine("1.\n");
             Console.WriteLine("Creating first account (EUR):");
-            Account EURaccount = new Account("EUR");
+            var EURaccount = new Account("EUR");
             Console.WriteLine($"Created with {EURaccount.Id}");
             
             Console.WriteLine("Creating second account (USD):");
-            Account USDaccount = new Account("USD");
+            var USDaccount = new Account("USD");
             Console.WriteLine($"Created with {USDaccount.Id}");
             
             Console.WriteLine("Creating third account (UAH):");
-            Account UAHaccount = new Account("UAH");
+            var UAHaccount = new Account("UAH");
             Console.WriteLine($"Created with {UAHaccount.Id}");
 
             Console.WriteLine("\n2.\n");
