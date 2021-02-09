@@ -21,8 +21,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28cac893-cc2a-4340-a647-f9e6e5e90e21" name="Default Changelist" comment="Small refactoring">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PM_HW_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BettingPlatformEmulatorTest/BettingPlatformEmulatorTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BettingPlatformEmulatorTest/BettingPlatformEmulatorTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Library.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Library.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.1/Task_1.1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.1/Task_1.1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.2/Task_1.2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.2/Task_1.2.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.3/Task_1.3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.3/Task_1.3.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.4/Task_1.4.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.4/Task_1.4.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.5/Task_1.5.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.5/Task_1.5.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_2.1/Task_2.1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.1/Task_2.1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_2.2/Task_2.2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.2/Task_2.2.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_3.1/Task_3.1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3.1/Task_3.1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_3.2/Task_3.2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3.2/Task_3.2.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_4.1/Task_4.1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_4.1/Task_4.1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_4.2/Task_4.2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_4.2/Task_4.2.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,51 +65,6 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D13C8B56-3008-422A-8C5A-AEC0A74089CC/65/78f15902/Exception.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Library/Program.cs" />
-        <option value="$PROJECT_DIR$/Library/IClassAccount.cs" />
-        <option value="$PROJECT_DIR$/Library/Class Account.cs" />
-        <option value="$PROJECT_DIR$/Task_1.3/Program.cs" />
-        <option value="$PROJECT_DIR$/Tast_1.4/Program.cs" />
-        <option value="$PROJECT_DIR$/Task_1.4/Program.cs" />
-        <option value="$PROJECT_DIR$/Library/IAccount.cs" />
-        <option value="$PROJECT_DIR$/Task_1.1/Program.cs" />
-        <option value="$PROJECT_DIR$/Task_1.5/Program.cs" />
-        <option value="$PROJECT_DIR$/BettingPlatformEmulatorTest/Program.cs" />
-        <option value="$PROJECT_DIR$/Task_2.2/Program.cs" />
-        <option value="$PROJECT_DIR$/Library/BetService.cs" />
-        <option value="$PROJECT_DIR$/Library/PaymentMethodBase.cs" />
-        <option value="$PROJECT_DIR$/Library/Block 3/ISupportDeposit.cs" />
-        <option value="$PROJECT_DIR$/Library/Block 3/ISupportWithdrawal.cs" />
-        <option value="$PROJECT_DIR$/Library/Block 3/Types/Privet48.cs" />
-        <option value="$PROJECT_DIR$/Task_3.1/Program.cs" />
-        <option value="$PROJECT_DIR$/Library/Block 3/Types/CreditCard.cs" />
-        <option value="$PROJECT_DIR$/Library/Block 3/PaymentMethodBase.cs" />
-        <option value="$PROJECT_DIR$/Library/Block 3/Types/Stereobank.cs" />
-        <option value="$PROJECT_DIR$/Task_3.2/Program.cs" />
-        <option value="$PROJECT_DIR$/Task_1.2/Program.cs" />
-        <option value="$PROJECT_DIR$/Task_2.1/Program.cs" />
-        <option value="$PROJECT_DIR$/Task_4.1/Program.cs" />
-        <option value="$PROJECT_DIR$/Library/Exceptions/PaymentServiceException.cs" />
-        <option value="$PROJECT_DIR$/Library/Exceptions/InsufficientFundsException.cs" />
-        <option value="$PROJECT_DIR$/Library/Exceptions/LimitExceededException.cs" />
-        <option value="$PROJECT_DIR$/Library/Exceptions/Privat24OverLimitException.cs" />
-        <option value="$PROJECT_DIR$/Library/Exceptions/OverLimitCreditCard.cs" />
-        <option value="$PROJECT_DIR$/Library/Exceptions/MonobankInternetLimit.cs" />
-        <option value="$PROJECT_DIR$/Library/Exceptions/GiftVoucherUsedVoucher.cs" />
-        <option value="$PROJECT_DIR$/Library/Exceptions/MonobankOverLimitException.cs" />
-        <option value="$PROJECT_DIR$/Library/Block 3/Types/Bank.cs" />
-        <option value="$PROJECT_DIR$/Library/PaymentService.cs" />
-        <option value="$PROJECT_DIR$/Library/Block 3/Types/GiftVoucher.cs" />
-        <option value="$PROJECT_DIR$/Task_4.2/Program.cs" />
-        <option value="$PROJECT_DIR$/Library/BettingPlatformEmulator.cs" />
-        <option value="$PROJECT_DIR$/Library/Account.cs" />
-        <option value="$PROJECT_DIR$/Library/Player.cs" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="1lWKBkiR8RruiTHQEgXY6yVqDRt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -109,6 +78,7 @@
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.054360136" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.054360136" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="XThreadsFramesViewSplitterKey" value="0.71753246" />
@@ -408,6 +378,8 @@
       <workItem from="1607707292529" duration="1835000" />
       <workItem from="1607860830542" duration="59427000" />
       <workItem from="1608190677289" duration="41001000" />
+      <workItem from="1612854347988" duration="193000" />
+      <workItem from="1612854720178" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607973015591</created>
@@ -478,6 +450,8 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -607,10 +581,10 @@
           <line>49</line>
           <properties documentPath="$PROJECT_DIR$/Library/PaymentService.cs" initialLine="48">
             <startOffsets>
-              <option value="1849" />
+              <option value="-1" />
             </startOffsets>
             <endOffsets>
-              <option value="1849" />
+              <option value="-1" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="76" />
